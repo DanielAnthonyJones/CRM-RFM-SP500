@@ -1,0 +1,8 @@
+
+# Study period
+start_date: "2021-01-01"
+end_date_exclusive: "2025-01-01"
+benchmark: "^GSPC"
+data_source: "yfinance"
+
+random_seed: 123
