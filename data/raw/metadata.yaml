@@ -1,0 +1,7 @@
+yfinance version: 1.7.0
+sp500_tickers.csv.gz:
+  last_updated: '2026-10-20 21:12:33.209425'
+sp500_data_2021-01-01_2025-01-01.csv.gz:
+  last_updated: '2026-10-20 21:12:56.152053'
+benchmark_data_2021-01-01_2025-01-01.csv.gz:
+  last_updated: '2026-10-20 21:12:56.402025'
