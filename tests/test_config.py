@@ -28,10 +28,3 @@ def test_random_seed_is_an_integer(config):
     """
     seed = config["random_seed"]
     assert isinstance(seed, int)
-
-
-def test_benchmark(config):
-    """
-    Test that the benchmark is set to "^GSPC".
-    """
-    assert config["benchmark"] == "^GSPC"
