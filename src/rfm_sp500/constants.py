@@ -10,3 +10,5 @@ OUTPUT_DIR = BASE_DIR / "outputs"
 FIGURES_DIR = OUTPUT_DIR / "figures"
 
 CONFIG_FILE = BASE_DIR / "config.yaml"
+
+SEED = 123
