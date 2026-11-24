@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import yaml
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 TICKER_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
@@ -11,4 +13,5 @@ FIGURES_DIR = OUTPUT_DIR / "figures"
 
 CONFIG_FILE = BASE_DIR / "config.yaml"
 
-SEED = 123
+with open(CONFIG_FILE, "r") as f:
+    SEED = yaml.safe_load(f)["random_seed"]
